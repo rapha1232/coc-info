@@ -2,10 +2,15 @@
   "name": "coc-max-levels",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
     "test": "jest",
+    "build": "tsc && copyfiles src/data.ts dist/",
     "prepublishOnly": "pnpm run build && pnpm run test"
   },
   "keywords": [],
