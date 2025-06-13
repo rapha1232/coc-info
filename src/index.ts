@@ -17,7 +17,7 @@ type EntityData = {
 type DataStructure = Record<string, EntityData>;
 
 // Type assertion for the imported data
-const typedData = data as DataStructure;
+export const typedData = data as DataStructure;
 
 export function getMaxLevel(entityName: string, level: number): number | null {
   const entityData = typedData[entityName];
@@ -76,6 +76,6 @@ module.exports = {
   getType,
   getGear,
   getLabLevelFromTH,
-  data,
+  data: typedData,
   entityNames,
 };
