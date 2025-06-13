@@ -1,4 +1,3 @@
-// src/index.ts
 import data from "./data.json";
 
 export function getMaxLevel(entityName: string, level: number): number | null {
@@ -8,8 +7,6 @@ export function getMaxLevel(entityName: string, level: number): number | null {
   return entityData[level];
 }
 
-// Helper function to get Lab level from TH level
-// You'll need to provide this mapping based on game mechanics
 export function getLabLevelFromTH(townhallLevel: number): number {
   const thToLabMap: Record<number, number> = {
     1: 0,
