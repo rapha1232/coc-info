@@ -33,5 +33,4 @@ export function getLabLevelFromTH(townhallLevel: number): number {
   return thToLabMap[townhallLevel] || 1;
 }
 
-console.log(getLabLevelFromTH(10)); // Example usage
 export { data };
