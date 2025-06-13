@@ -18,6 +18,7 @@ declare module "coc-max-levels" {
   ): number | null;
   export function getCount(entityName: string, thLevel: number): number | null;
   export function getType(entityName: string): string | null;
+  export function getUses(entityName: string): string | null;
   export function getGear(entityName: string): boolean | null;
   export function canGearUp(
     entityName: string,

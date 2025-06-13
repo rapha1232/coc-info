@@ -45,6 +45,11 @@ export function getGear(entityName: string): boolean | null {
   return entityData?.gearUp ?? null;
 }
 
+export function getUses(entityName: string): string | null {
+  const entityData = typedData[entityName];
+  return entityData?.uses ?? null;
+}
+
 export function getLabLevelFromTH(townhallLevel: number): number {
   const thToLabMap: Record<number, number> = {
     1: 0,
@@ -75,6 +80,7 @@ module.exports = {
   getCount,
   getType,
   getGear,
+  getUses,
   getLabLevelFromTH,
   data: typedData,
   entityNames,
