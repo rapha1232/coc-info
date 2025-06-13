@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
     "declaration": true,
-    "declarationDir": "dist/types",
-    "outDir": "dist",
-    "rootDir": "src"
-  }
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
 }

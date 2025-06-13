@@ -1,4 +1,4 @@
-import { getMaxLevel } from "..";
+import { getMaxLevel } from "../index";
 
 describe("getMaxLevel", () => {
   describe("TH-dependent entities", () => {

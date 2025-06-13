@@ -30,4 +30,9 @@ export function getLabLevelFromTH(townhallLevel: number): number {
   return thToLabMap[townhallLevel] || 1;
 }
 
-export { data };
+module.exports = {
+  getMaxLevel,
+  getLabLevelFromTH,
+  data,
+  entityNames: Object.keys(data),
+};
