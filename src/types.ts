@@ -1,7 +1,12 @@
-export interface LevelData {
-  [key: string]: number; // Explicitly say values are numbers
+interface EntityInfo {
+  max: number;
+  count: number;
+  canGear?: boolean;
 }
 
-export interface EntityData {
-  [entityName: string]: LevelData;
+interface EntityData {
+  type: string;
+  uses?: string;
+  gearUp?: boolean;
+  infoByTownhall: Record<number, EntityInfo>;
 }
