@@ -3,8324 +3,957 @@
     "type": "defense",
     "gearUp": true,
     "infoByTownhall": {
-      "1": {
-        "max": 1,
-        "count": 2
-      },
-      "2": {
-        "max": 3,
-        "count": 2
-      },
-      "3": {
-        "max": 4,
-        "count": 2
-      },
-      "4": {
-        "max": 5,
-        "count": 2
-      },
-      "5": {
-        "max": 6,
-        "count": 3
-      },
-      "6": {
-        "max": 7,
-        "count": 3
-      },
-      "7": {
-        "max": 8,
-        "count": 5
-      },
-      "8": {
-        "max": 10,
-        "count": 5
-      },
-      "9": {
-        "max": 11,
-        "count": 5
-      },
-      "10": {
-        "max": 13,
-        "count": 6
-      },
-      "11": {
-        "max": 15,
-        "count": 7
-      },
-      "12": {
-        "max": 17,
-        "count": 7
-      },
-      "13": {
-        "max": 19,
-        "count": 7
-      },
-      "14": {
-        "max": 20,
-        "count": 7
-      },
-      "15": {
-        "max": 21,
-        "count": 7
-      },
-      "16": {
-        "max": 21,
-        "count": 7,
-        "possibleRemoved": 4
-      },
-      "17": {
-        "max": 21,
-        "count": 7,
-        "possibleRemoved": 7
-      }
+      "max": [1, 3, 4, 5, 6, 7, 8, 10, 11, 13, 15, 17, 19, 20, 21, 21, 21],
+      "count": [2, 2, 2, 2, 3, 3, 5, 5, 5, 6, 7, 7, 7, 7, 7, 7, 7],
+      "possibleRemoved": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 7]
     }
   },
   "Archer Tower": {
     "type": "defense",
     "gearUp": true,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 2,
-        "count": 1
-      },
-      "3": {
-        "max": 3,
-        "count": 1
-      },
-      "4": {
-        "max": 4,
-        "count": 2
-      },
-      "5": {
-        "max": 6,
-        "count": 3
-      },
-      "6": {
-        "max": 7,
-        "count": 3
-      },
-      "7": {
-        "max": 8,
-        "count": 4
-      },
-      "8": {
-        "max": 10,
-        "count": 5
-      },
-      "9": {
-        "max": 11,
-        "count": 6
-      },
-      "10": {
-        "max": 13,
-        "count": 7
-      },
-      "11": {
-        "max": 15,
-        "count": 8
-      },
-      "12": {
-        "max": 17,
-        "count": 8
-      },
-      "13": {
-        "max": 19,
-        "count": 8
-      },
-      "14": {
-        "max": 20,
-        "count": 8
-      },
-      "15": {
-        "max": 21,
-        "count": 8
-      },
-      "16": {
-        "max": 21,
-        "count": 8,
-        "possibleRemoved": 4
-      },
-      "17": {
-        "max": 21,
-        "count": 9,
-        "possibleRemoved": 7
-      }
+      "max": [0, 2, 3, 4, 6, 7, 8, 10, 11, 13, 15, 17, 19, 20, 21, 21, 21],
+      "count": [0, 1, 1, 2, 3, 3, 4, 5, 6, 7, 8, 8, 8, 8, 8, 8, 9],
+      "possibleRemoved": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 7]
     }
   },
   "Mortar": {
     "type": "defense",
     "gearUp": true,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 1,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 3,
-        "count": 1
-      },
-      "6": {
-        "max": 4,
-        "count": 2
-      },
-      "7": {
-        "max": 5,
-        "count": 3
-      },
-      "8": {
-        "max": 6,
-        "count": 4
-      },
-      "9": {
-        "max": 7,
-        "count": 4
-      },
-      "10": {
-        "max": 8,
-        "count": 4
-      },
-      "11": {
-        "max": 10,
-        "count": 4
-      },
-      "12": {
-        "max": 12,
-        "count": 4
-      },
-      "13": {
-        "max": 13,
-        "count": 4
-      },
-      "14": {
-        "max": 14,
-        "count": 4
-      },
-      "15": {
-        "max": 15,
-        "count": 4
-      },
-      "16": {
-        "max": 16,
-        "count": 4
-      },
-      "17": {
-        "max": 17,
-        "count": 4
-      }
+      "max": [0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 14, 15, 16, 17],
+      "count": [0, 0, 1, 1, 1, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
     }
   },
   "Air Defense": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 3,
-        "count": 1
-      },
-      "6": {
-        "max": 4,
-        "count": 2
-      },
-      "7": {
-        "max": 5,
-        "count": 3
-      },
-      "8": {
-        "max": 6,
-        "count": 3
-      },
-      "9": {
-        "max": 7,
-        "count": 4
-      },
-      "10": {
-        "max": 8,
-        "count": 4
-      },
-      "11": {
-        "max": 9,
-        "count": 4
-      },
-      "12": {
-        "max": 10,
-        "count": 4
-      },
-      "13": {
-        "max": 11,
-        "count": 4
-      },
-      "14": {
-        "max": 12,
-        "count": 4
-      },
-      "15": {
-        "max": 13,
-        "count": 4
-      },
-      "16": {
-        "max": 14,
-        "count": 4
-      },
-      "17": {
-        "max": 15,
-        "count": 4
-      }
+      "max": [0, 0, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "count": [0, 0, 0, 1, 1, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4]
     }
   },
   "Wizard Tower": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 2,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 2
-      },
-      "7": {
-        "max": 4,
-        "count": 2
-      },
-      "8": {
-        "max": 6,
-        "count": 3
-      },
-      "9": {
-        "max": 7,
-        "count": 4
-      },
-      "10": {
-        "max": 9,
-        "count": 4
-      },
-      "11": {
-        "max": 10,
-        "count": 5
-      },
-      "12": {
-        "max": 11,
-        "count": 5
-      },
-      "13": {
-        "max": 13,
-        "count": 5
-      },
-      "14": {
-        "max": 14,
-        "count": 5
-      },
-      "15": {
-        "max": 15,
-        "count": 5
-      },
-      "16": {
-        "max": 16,
-        "count": 5
-      },
-      "17": {
-        "max": 17,
-        "count": 5
-      }
+      "max": [0, 0, 0, 0, 2, 3, 4, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17],
+      "count": [0, 0, 0, 0, 1, 2, 2, 3, 4, 4, 5, 5, 5, 5, 5, 5, 5]
     }
   },
   "Air Sweeper": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 2,
-        "count": 1
-      },
-      "7": {
-        "max": 3,
-        "count": 1
-      },
-      "8": {
-        "max": 4,
-        "count": 1
-      },
-      "9": {
-        "max": 5,
-        "count": 2
-      },
-      "10": {
-        "max": 6,
-        "count": 2
-      },
-      "11": {
-        "max": 7,
-        "count": 2
-      },
-      "12": {
-        "max": 7,
-        "count": 2
-      },
-      "13": {
-        "max": 7,
-        "count": 2
-      },
-      "14": {
-        "max": 7,
-        "count": 2
-      },
-      "15": {
-        "max": 7,
-        "count": 2
-      },
-      "16": {
-        "max": 7,
-        "count": 2
-      },
-      "17": {
-        "max": 7,
-        "count": 2
-      }
+      "max": [0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 7, 7, 7, 7, 7, 7, 7],
+      "count": [0, 0, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     }
   },
   "Hidden Tesla": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 3,
-        "count": 2
-      },
-      "8": {
-        "max": 6,
-        "count": 3
-      },
-      "9": {
-        "max": 7,
-        "count": 4
-      },
-      "10": {
-        "max": 8,
-        "count": 4
-      },
-      "11": {
-        "max": 9,
-        "count": 4
-      },
-      "12": {
-        "max": 10,
-        "count": 5
-      },
-      "13": {
-        "max": 12,
-        "count": 5
-      },
-      "14": {
-        "max": 13,
-        "count": 5
-      },
-      "15": {
-        "max": 14,
-        "count": 5
-      },
-      "16": {
-        "max": 15,
-        "count": 5
-      },
-      "17": {
-        "max": 16,
-        "count": 5
-      }
+      "max": [0, 0, 0, 0, 0, 0, 3, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16],
+      "count": [0, 0, 0, 0, 0, 0, 2, 3, 4, 4, 4, 5, 5, 5, 5, 5, 5]
     }
   },
   "Bomb Tower": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 2,
-        "count": 1
-      },
-      "9": {
-        "max": 3,
-        "count": 1
-      },
-      "10": {
-        "max": 4,
-        "count": 2
-      },
-      "11": {
-        "max": 6,
-        "count": 2
-      },
-      "12": {
-        "max": 7,
-        "count": 2
-      },
-      "13": {
-        "max": 8,
-        "count": 2
-      },
-      "14": {
-        "max": 9,
-        "count": 2
-      },
-      "15": {
-        "max": 10,
-        "count": 2
-      },
-      "16": {
-        "max": 11,
-        "count": 2
-      },
-      "17": {
-        "max": 12,
-        "count": 2
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2]
     }
   },
   "X-Bow": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 3,
-        "count": 2
-      },
-      "10": {
-        "max": 4,
-        "count": 3
-      },
-      "11": {
-        "max": 5,
-        "count": 4
-      },
-      "12": {
-        "max": 6,
-        "count": 4
-      },
-      "13": {
-        "max": 8,
-        "count": 4
-      },
-      "14": {
-        "max": 9,
-        "count": 4
-      },
-      "15": {
-        "max": 10,
-        "count": 4
-      },
-      "16": {
-        "max": 11,
-        "count": 4
-      },
-      "17": {
-        "max": 12,
-        "count": 4
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 5, 6, 8, 9, 10, 11, 12],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 4, 4, 4, 4, 4, 4]
     }
   },
   "Inferno Tower": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 3,
-        "count": 2
-      },
-      "11": {
-        "max": 5,
-        "count": 2
-      },
-      "12": {
-        "max": 6,
-        "count": 3
-      },
-      "13": {
-        "max": 7,
-        "count": 3
-      },
-      "14": {
-        "max": 8,
-        "count": 3
-      },
-      "15": {
-        "max": 9,
-        "count": 3
-      },
-      "16": {
-        "max": 10,
-        "count": 3
-      },
-      "17": {
-        "max": 11,
-        "count": 3
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 6, 7, 8, 9, 10, 11],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 3, 3, 3, 3, 3, 3]
     }
   },
   "Eagle Artillery": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 2,
-        "count": 1
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 5,
-        "count": 1
-      },
-      "15": {
-        "max": 6,
-        "count": 1
-      },
-      "16": {
-        "max": 7,
-        "count": 1
-      },
-      "17": {
-        "max": 0,
-        "count": 0
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 7, 0],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 0]
     }
   },
   "Scattershot": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 2,
-        "count": 2
-      },
-      "14": {
-        "max": 3,
-        "count": 2
-      },
-      "15": {
-        "max": 4,
-        "count": 2
-      },
-      "16": {
-        "max": 5,
-        "count": 2
-      },
-      "17": {
-        "max": 6,
-        "count": 2
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2]
     }
   },
   "Builder's Hut": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 1,
-        "count": 5
-      },
-      "2": {
-        "max": 1,
-        "count": 5
-      },
-      "3": {
-        "max": 1,
-        "count": 5
-      },
-      "4": {
-        "max": 1,
-        "count": 5
-      },
-      "5": {
-        "max": 1,
-        "count": 5
-      },
-      "6": {
-        "max": 1,
-        "count": 5
-      },
-      "7": {
-        "max": 1,
-        "count": 5
-      },
-      "8": {
-        "max": 1,
-        "count": 5
-      },
-      "9": {
-        "max": 1,
-        "count": 5
-      },
-      "10": {
-        "max": 1,
-        "count": 5
-      },
-      "11": {
-        "max": 1,
-        "count": 5
-      },
-      "12": {
-        "max": 1,
-        "count": 5
-      },
-      "13": {
-        "max": 1,
-        "count": 5
-      },
-      "14": {
-        "max": 4,
-        "count": 5
-      },
-      "15": {
-        "max": 5,
-        "count": 5
-      },
-      "16": {
-        "max": 6,
-        "count": 5
-      },
-      "17": {
-        "max": 7,
-        "count": 5
-      }
+      "max": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 5, 6, 7],
+      "count": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
     }
   },
   "Spell Tower": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 3,
-        "count": 2
-      },
-      "16": {
-        "max": 3,
-        "count": 2
-      },
-      "17": {
-        "max": 3,
-        "count": 2
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2]
     }
   },
   "Monolith": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 2,
-        "count": 1
-      },
-      "16": {
-        "max": 3,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Multi-Archer Tower": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 2,
-        "count": 2
-      },
-      "17": {
-        "max": 3,
-        "count": 3
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3]
     }
   },
   "Ricochet Cannon": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 2,
-        "count": 2
-      },
-      "17": {
-        "max": 3,
-        "count": 3
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3]
     }
   },
   "Multi-Gear Tower": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 0,
-        "count": 0
-      },
-      "17": {
-        "max": 2,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
     }
   },
   "Firespitter": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 0,
-        "count": 0
-      },
-      "17": {
-        "max": 2,
-        "count": 2
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2]
     }
   },
-  "townHallWeapon": {
+  "Giga Tesla": {
     "type": "defense",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 5,
-        "count": 1,
-        "name": "Giga Tesla"
-      },
-      "13": {
-        "max": 5,
-        "count": 1,
-        "name": "Giga Inferno"
-      },
-      "14": {
-        "max": 5,
-        "count": 1,
-        "name": "Giga Inferno"
-      },
-      "15": {
-        "max": 5,
-        "count": 1,
-        "name": "Giga Inferno"
-      },
-      "16": {
-        "max": 1,
-        "count": 1,
-        "name": "Giga Inferno"
-      },
-      "17": {
-        "max": 5,
-        "count": 1,
-        "name": "Inferno Artillery"
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+    }
+  },
+  "Giga Inferno TH13": {
+    "type": "defense",
+    "gearUp": false,
+    "infoByTownhall": {
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+    }
+  },
+  "Giga Inferno TH14": {
+    "type": "defense",
+    "gearUp": false,
+    "infoByTownhall": {
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0]
+    }
+  },
+  "Giga Inferno TH15": {
+    "type": "defense",
+    "gearUp": false,
+    "infoByTownhall": {
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]
+    }
+  },
+  "Giga Inferno TH16": {
+    "type": "defense",
+    "gearUp": false,
+    "infoByTownhall": {
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+    }
+  },
+  "Eagle Inferno": {
+    "type": "defense",
+    "gearUp": false,
+    "infoByTownhall": {
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
     }
   },
   "Bomb": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 2,
-        "count": 2
-      },
-      "4": {
-        "max": 2,
-        "count": 2
-      },
-      "5": {
-        "max": 3,
-        "count": 4
-      },
-      "6": {
-        "max": 3,
-        "count": 4
-      },
-      "7": {
-        "max": 4,
-        "count": 6
-      },
-      "8": {
-        "max": 5,
-        "count": 6
-      },
-      "9": {
-        "max": 6,
-        "count": 6
-      },
-      "10": {
-        "max": 7,
-        "count": 6
-      },
-      "11": {
-        "max": 8,
-        "count": 6
-      },
-      "12": {
-        "max": 8,
-        "count": 6
-      },
-      "13": {
-        "max": 9,
-        "count": 7
-      },
-      "14": {
-        "max": 10,
-        "count": 8
-      },
-      "15": {
-        "max": 11,
-        "count": 8
-      },
-      "16": {
-        "max": 12,
-        "count": 8
-      },
-      "17": {
-        "max": 13,
-        "count": 8
-      }
+      "max": [0, 0, 2, 2, 3, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13],
+      "count": [0, 0, 2, 2, 4, 4, 6, 6, 6, 6, 6, 6, 7, 8, 8, 8, 8]
     }
   },
   "Spring Trap": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 1,
-        "count": 2
-      },
-      "5": {
-        "max": 1,
-        "count": 2
-      },
-      "6": {
-        "max": 1,
-        "count": 4
-      },
-      "7": {
-        "max": 2,
-        "count": 4
-      },
-      "8": {
-        "max": 3,
-        "count": 6
-      },
-      "9": {
-        "max": 4,
-        "count": 6
-      },
-      "10": {
-        "max": 5,
-        "count": 6
-      },
-      "11": {
-        "max": 5,
-        "count": 6
-      },
-      "12": {
-        "max": 5,
-        "count": 8
-      },
-      "13": {
-        "max": 5,
-        "count": 9
-      },
-      "14": {
-        "max": 5,
-        "count": 9
-      },
-      "15": {
-        "max": 5,
-        "count": 9
-      },
-      "16": {
-        "max": 5,
-        "count": 9
-      },
-      "17": {
-        "max": 5,
-        "count": 9
-      }
+      "max": [0, 0, 0, 1, 1, 1, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5, 5],
+      "count": [0, 0, 0, 2, 2, 4, 4, 6, 6, 6, 6, 8, 9, 9, 9, 9, 9]
     }
   },
   "Giant Bomb": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 2,
-        "count": 1
-      },
-      "7": {
-        "max": 2,
-        "count": 2
-      },
-      "8": {
-        "max": 3,
-        "count": 3
-      },
-      "9": {
-        "max": 3,
-        "count": 4
-      },
-      "10": {
-        "max": 4,
-        "count": 5
-      },
-      "11": {
-        "max": 5,
-        "count": 5
-      },
-      "12": {
-        "max": 5,
-        "count": 6
-      },
-      "13": {
-        "max": 7,
-        "count": 6
-      },
-      "14": {
-        "max": 8,
-        "count": 7
-      },
-      "15": {
-        "max": 9,
-        "count": 7
-      },
-      "16": {
-        "max": 10,
-        "count": 7
-      },
-      "17": {
-        "max": 11,
-        "count": 8
-      }
+      "max": [0, 0, 0, 0, 0, 2, 2, 3, 3, 4, 5, 5, 7, 8, 9, 10, 11],
+      "count": [0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 5, 6, 6, 7, 7, 7, 8]
     }
   },
   "Air Bomb": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 2,
-        "count": 2
-      },
-      "6": {
-        "max": 2,
-        "count": 2
-      },
-      "7": {
-        "max": 3,
-        "count": 2
-      },
-      "8": {
-        "max": 3,
-        "count": 4
-      },
-      "9": {
-        "max": 4,
-        "count": 4
-      },
-      "10": {
-        "max": 4,
-        "count": 5
-      },
-      "11": {
-        "max": 5,
-        "count": 5
-      },
-      "12": {
-        "max": 6,
-        "count": 6
-      },
-      "13": {
-        "max": 8,
-        "count": 6
-      },
-      "14": {
-        "max": 9,
-        "count": 7
-      },
-      "15": {
-        "max": 10,
-        "count": 7
-      },
-      "16": {
-        "max": 11,
-        "count": 7
-      },
-      "17": {
-        "max": 12,
-        "count": 7
-      }
+      "max": [0, 0, 0, 0, 2, 2, 3, 3, 4, 4, 5, 6, 8, 9, 10, 11, 12],
+      "count": [0, 0, 0, 0, 2, 2, 2, 4, 4, 5, 5, 6, 6, 7, 7, 7, 7]
     }
   },
   "Seeking Air Mine": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 1,
-        "count": 1
-      },
-      "8": {
-        "max": 1,
-        "count": 2
-      },
-      "9": {
-        "max": 2,
-        "count": 4
-      },
-      "10": {
-        "max": 3,
-        "count": 5
-      },
-      "11": {
-        "max": 3,
-        "count": 5
-      },
-      "12": {
-        "max": 3,
-        "count": 6
-      },
-      "13": {
-        "max": 4,
-        "count": 7
-      },
-      "14": {
-        "max": 4,
-        "count": 8
-      },
-      "15": {
-        "max": 5,
-        "count": 8
-      },
-      "16": {
-        "max": 6,
-        "count": 8
-      },
-      "17": {
-        "max": 7,
-        "count": 8
-      }
+      "max": [0, 0, 0, 0, 0, 0, 1, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7],
+      "count": [0, 0, 0, 0, 0, 0, 1, 2, 4, 5, 5, 6, 7, 8, 8, 8, 8]
     }
   },
   "Skeleton Trap": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 2,
-        "count": 2
-      },
-      "9": {
-        "max": 3,
-        "count": 2
-      },
-      "10": {
-        "max": 4,
-        "count": 3
-      },
-      "11": {
-        "max": 4,
-        "count": 3
-      },
-      "12": {
-        "max": 4,
-        "count": 3
-      },
-      "13": {
-        "max": 4,
-        "count": 3
-      },
-      "14": {
-        "max": 4,
-        "count": 4
-      },
-      "15": {
-        "max": 4,
-        "count": 4
-      },
-      "16": {
-        "max": 4,
-        "count": 4
-      },
-      "17": {
-        "max": 4,
-        "count": 4
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4]
     }
   },
   "Tornado Trap": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 2,
-        "count": 1
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 3,
-        "count": 1
-      },
-      "14": {
-        "max": 3,
-        "count": 1
-      },
-      "15": {
-        "max": 3,
-        "count": 1
-      },
-      "16": {
-        "max": 3,
-        "count": 1
-      },
-      "17": {
-        "max": 3,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 3, 3, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Giga Bomb": {
     "type": "trap",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 0,
-        "count": 0
-      },
-      "17": {
-        "max": 3,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
     }
   },
   "Wall": {
     "type": "walls",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 2,
-        "count": 25
-      },
-      "3": {
-        "max": 3,
-        "count": 50
-      },
-      "4": {
-        "max": 4,
-        "count": 75
-      },
-      "5": {
-        "max": 5,
-        "count": 100
-      },
-      "6": {
-        "max": 6,
-        "count": 125
-      },
-      "7": {
-        "max": 7,
-        "count": 175
-      },
-      "8": {
-        "max": 8,
-        "count": 225
-      },
-      "9": {
-        "max": 10,
-        "count": 250
-      },
-      "10": {
-        "max": 11,
-        "count": 275
-      },
-      "11": {
-        "max": 12,
-        "count": 300
-      },
-      "12": {
-        "max": 13,
-        "count": 300
-      },
-      "13": {
-        "max": 14,
-        "count": 300
-      },
-      "14": {
-        "max": 15,
-        "count": 325
-      },
-      "15": {
-        "max": 16,
-        "count": 325
-      },
-      "16": {
-        "max": 17,
-        "count": 325
-      },
-      "17": {
-        "max": 18,
-        "count": 325,
-        "maxCount": 250
-      }
+      "max": [0, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18],
+      "count": [
+        0, 25, 50, 75, 100, 125, 175, 225, 250, 275, 300, 300, 300, 325, 325,
+        325, 325
+      ]
     }
   },
   "Townhall": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 1,
-        "count": 1
-      },
-      "2": {
-        "max": 2,
-        "count": 1
-      },
-      "3": {
-        "max": 3,
-        "count": 1
-      },
-      "4": {
-        "max": 4,
-        "count": 1
-      },
-      "5": {
-        "max": 5,
-        "count": 1
-      },
-      "6": {
-        "max": 6,
-        "count": 1
-      },
-      "7": {
-        "max": 7,
-        "count": 1
-      },
-      "8": {
-        "max": 8,
-        "count": 1
-      },
-      "9": {
-        "max": 9,
-        "count": 1
-      },
-      "10": {
-        "max": 10,
-        "count": 1
-      },
-      "11": {
-        "max": 11,
-        "count": 1
-      },
-      "12": {
-        "max": 12,
-        "count": 1
-      },
-      "13": {
-        "max": 13,
-        "count": 1
-      },
-      "14": {
-        "max": 14,
-        "count": 1
-      },
-      "15": {
-        "max": 15,
-        "count": 1
-      },
-      "16": {
-        "max": 16,
-        "count": 1
-      },
-      "17": {
-        "max": 17,
-        "count": 1
-      }
+      "max": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "count": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Gold Mine": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 2,
-        "count": 1
-      },
-      "2": {
-        "max": 4,
-        "count": 2
-      },
-      "3": {
-        "max": 6,
-        "count": 3
-      },
-      "4": {
-        "max": 8,
-        "count": 4
-      },
-      "5": {
-        "max": 10,
-        "count": 5
-      },
-      "6": {
-        "max": 10,
-        "count": 6
-      },
-      "7": {
-        "max": 11,
-        "count": 6
-      },
-      "8": {
-        "max": 12,
-        "count": 6
-      },
-      "9": {
-        "max": 12,
-        "count": 7
-      },
-      "10": {
-        "max": 13,
-        "count": 7
-      },
-      "11": {
-        "max": 14,
-        "count": 7
-      },
-      "12": {
-        "max": 15,
-        "count": 7
-      },
-      "13": {
-        "max": 15,
-        "count": 7
-      },
-      "14": {
-        "max": 16,
-        "count": 7
-      },
-      "15": {
-        "max": 16,
-        "count": 7
-      },
-      "16": {
-        "max": 16,
-        "count": 7
-      },
-      "17": {
-        "max": 16,
-        "count": 7
-      }
+      "max": [2, 4, 6, 8, 10, 10, 11, 12, 12, 13, 14, 15, 15, 16, 16, 16, 16],
+      "count": [1, 2, 3, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7]
     }
   },
   "Elixir Collector": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 2,
-        "count": 1
-      },
-      "2": {
-        "max": 4,
-        "count": 2
-      },
-      "3": {
-        "max": 6,
-        "count": 3
-      },
-      "4": {
-        "max": 8,
-        "count": 4
-      },
-      "5": {
-        "max": 10,
-        "count": 5
-      },
-      "6": {
-        "max": 10,
-        "count": 6
-      },
-      "7": {
-        "max": 11,
-        "count": 6
-      },
-      "8": {
-        "max": 12,
-        "count": 6
-      },
-      "9": {
-        "max": 12,
-        "count": 7
-      },
-      "10": {
-        "max": 13,
-        "count": 7
-      },
-      "11": {
-        "max": 14,
-        "count": 7
-      },
-      "12": {
-        "max": 15,
-        "count": 7
-      },
-      "13": {
-        "max": 15,
-        "count": 7
-      },
-      "14": {
-        "max": 16,
-        "count": 7
-      },
-      "15": {
-        "max": 16,
-        "count": 7
-      },
-      "16": {
-        "max": 16,
-        "count": 7
-      },
-      "17": {
-        "max": 16,
-        "count": 7
-      }
+      "max": [2, 4, 6, 8, 10, 10, 11, 12, 12, 13, 14, 15, 15, 16, 16, 16, 16],
+      "count": [1, 2, 3, 4, 5, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7]
     }
   },
   "Dark Elixir Drill": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 3,
-        "count": 1
-      },
-      "8": {
-        "max": 3,
-        "count": 2
-      },
-      "9": {
-        "max": 6,
-        "count": 3
-      },
-      "10": {
-        "max": 7,
-        "count": 3
-      },
-      "11": {
-        "max": 8,
-        "count": 3
-      },
-      "12": {
-        "max": 9,
-        "count": 3
-      },
-      "13": {
-        "max": 9,
-        "count": 3
-      },
-      "14": {
-        "max": 10,
-        "count": 3
-      },
-      "15": {
-        "max": 10,
-        "count": 3
-      },
-      "16": {
-        "max": 10,
-        "count": 3
-      },
-      "17": {
-        "max": 10,
-        "count": 3
-      }
+      "max": [0, 0, 0, 0, 0, 0, 3, 3, 6, 7, 8, 9, 9, 10, 10, 10, 10],
+      "count": [0, 0, 0, 0, 0, 0, 1, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3]
     }
   },
   "Gold Storage": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 1,
-        "count": 1
-      },
-      "2": {
-        "max": 3,
-        "count": 1
-      },
-      "3": {
-        "max": 6,
-        "count": 2
-      },
-      "4": {
-        "max": 8,
-        "count": 2
-      },
-      "5": {
-        "max": 9,
-        "count": 2
-      },
-      "6": {
-        "max": 10,
-        "count": 2
-      },
-      "7": {
-        "max": 11,
-        "count": 2
-      },
-      "8": {
-        "max": 11,
-        "count": 3
-      },
-      "9": {
-        "max": 11,
-        "count": 4
-      },
-      "10": {
-        "max": 11,
-        "count": 4
-      },
-      "11": {
-        "max": 12,
-        "count": 4
-      },
-      "12": {
-        "max": 13,
-        "count": 4
-      },
-      "13": {
-        "max": 14,
-        "count": 4
-      },
-      "14": {
-        "max": 15,
-        "count": 4
-      },
-      "15": {
-        "max": 16,
-        "count": 4
-      },
-      "16": {
-        "max": 17,
-        "count": 4
-      },
-      "17": {
-        "max": 18,
-        "count": 4
-      }
+      "max": [1, 3, 6, 8, 9, 10, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18],
+      "count": [1, 1, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4]
     }
   },
   "Elixir Storage": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 1,
-        "count": 1
-      },
-      "2": {
-        "max": 3,
-        "count": 1
-      },
-      "3": {
-        "max": 6,
-        "count": 2
-      },
-      "4": {
-        "max": 8,
-        "count": 2
-      },
-      "5": {
-        "max": 9,
-        "count": 2
-      },
-      "6": {
-        "max": 10,
-        "count": 2
-      },
-      "7": {
-        "max": 11,
-        "count": 2
-      },
-      "8": {
-        "max": 11,
-        "count": 3
-      },
-      "9": {
-        "max": 11,
-        "count": 4
-      },
-      "10": {
-        "max": 11,
-        "count": 4
-      },
-      "11": {
-        "max": 12,
-        "count": 4
-      },
-      "12": {
-        "max": 13,
-        "count": 4
-      },
-      "13": {
-        "max": 14,
-        "count": 4
-      },
-      "14": {
-        "max": 15,
-        "count": 4
-      },
-      "15": {
-        "max": 16,
-        "count": 4
-      },
-      "16": {
-        "max": 17,
-        "count": 4
-      },
-      "17": {
-        "max": 18,
-        "count": 4
-      }
+      "max": [1, 3, 6, 8, 9, 10, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18],
+      "count": [1, 1, 2, 2, 2, 2, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4]
     }
   },
   "Dark Elixir Storage": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 2,
-        "count": 1
-      },
-      "8": {
-        "max": 4,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 6,
-        "count": 1
-      },
-      "11": {
-        "max": 6,
-        "count": 1
-      },
-      "12": {
-        "max": 7,
-        "count": 1
-      },
-      "13": {
-        "max": 8,
-        "count": 1
-      },
-      "14": {
-        "max": 9,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 11,
-        "count": 1
-      },
-      "17": {
-        "max": 12,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 2, 4, 6, 6, 6, 7, 8, 9, 10, 11, 12],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Clan Castle": {
     "type": "resource",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 1,
-        "count": 0
-      },
-      "3": {
-        "max": 1,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 2,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 3,
-        "count": 1
-      },
-      "8": {
-        "max": 4,
-        "count": 1
-      },
-      "9": {
-        "max": 5,
-        "count": 1
-      },
-      "10": {
-        "max": 6,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 8,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 11,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 13,
-        "count": 1
-      }
+      "max": [0, 1, 1, 2, 2, 3, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "count": [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Army Camp": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 1,
-        "count": 1
-      },
-      "2": {
-        "max": 2,
-        "count": 1
-      },
-      "3": {
-        "max": 3,
-        "count": 2
-      },
-      "4": {
-        "max": 4,
-        "count": 2
-      },
-      "5": {
-        "max": 5,
-        "count": 3
-      },
-      "6": {
-        "max": 6,
-        "count": 3
-      },
-      "7": {
-        "max": 6,
-        "count": 4
-      },
-      "8": {
-        "max": 6,
-        "count": 4
-      },
-      "9": {
-        "max": 7,
-        "count": 4
-      },
-      "10": {
-        "max": 8,
-        "count": 4
-      },
-      "11": {
-        "max": 9,
-        "count": 4
-      },
-      "12": {
-        "max": 10,
-        "count": 4
-      },
-      "13": {
-        "max": 11,
-        "count": 4
-      },
-      "14": {
-        "max": 11,
-        "count": 4
-      },
-      "15": {
-        "max": 12,
-        "count": 4
-      },
-      "16": {
-        "max": 12,
-        "count": 4
-      },
-      "17": {
-        "max": 12,
-        "count": 4
-      }
+      "max": [1, 2, 3, 4, 5, 6, 6, 6, 7, 8, 9, 10, 11, 11, 12, 12, 12],
+      "count": [1, 1, 2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
     }
   },
   "Barracks": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 3,
-        "count": 1
-      },
-      "2": {
-        "max": 4,
-        "count": 1
-      },
-      "3": {
-        "max": 5,
-        "count": 1
-      },
-      "4": {
-        "max": 6,
-        "count": 1
-      },
-      "5": {
-        "max": 7,
-        "count": 1
-      },
-      "6": {
-        "max": 8,
-        "count": 1
-      },
-      "7": {
-        "max": 9,
-        "count": 1
-      },
-      "8": {
-        "max": 10,
-        "count": 1
-      },
-      "9": {
-        "max": 11,
-        "count": 1
-      },
-      "10": {
-        "max": 12,
-        "count": 1
-      },
-      "11": {
-        "max": 13,
-        "count": 1
-      },
-      "12": {
-        "max": 14,
-        "count": 1
-      },
-      "13": {
-        "max": 15,
-        "count": 1
-      },
-      "14": {
-        "max": 16,
-        "count": 1
-      },
-      "15": {
-        "max": 17,
-        "count": 1
-      },
-      "16": {
-        "max": 18,
-        "count": 1
-      },
-      "17": {
-        "max": 19,
-        "count": 1
-      }
+      "max": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19],
+      "count": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Dark Barracks": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 2,
-        "count": 1
-      },
-      "8": {
-        "max": 4,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 8,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 10,
-        "count": 1
-      },
-      "14": {
-        "max": 11,
-        "count": 1
-      },
-      "15": {
-        "max": 12,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 12,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 2, 4, 6, 7, 8, 9, 10, 11, 12, 12, 12],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Laboratory": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 1,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 3,
-        "count": 1
-      },
-      "6": {
-        "max": 4,
-        "count": 1
-      },
-      "7": {
-        "max": 5,
-        "count": 1
-      },
-      "8": {
-        "max": 6,
-        "count": 1
-      },
-      "9": {
-        "max": 7,
-        "count": 1
-      },
-      "10": {
-        "max": 8,
-        "count": 1
-      },
-      "11": {
-        "max": 9,
-        "count": 1
-      },
-      "12": {
-        "max": 10,
-        "count": 1
-      },
-      "13": {
-        "max": 11,
-        "count": 1
-      },
-      "14": {
-        "max": 12,
-        "count": 1
-      },
-      "15": {
-        "max": 13,
-        "count": 1
-      },
-      "16": {
-        "max": 14,
-        "count": 1
-      },
-      "17": {
-        "max": 15,
-        "count": 1
-      }
+      "max": [0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+      "count": [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Spell Factory": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 1,
-        "count": 1
-      },
-      "6": {
-        "max": 2,
-        "count": 1
-      },
-      "7": {
-        "max": 3,
-        "count": 1
-      },
-      "8": {
-        "max": 3,
-        "count": 1
-      },
-      "9": {
-        "max": 4,
-        "count": 1
-      },
-      "10": {
-        "max": 5,
-        "count": 1
-      },
-      "11": {
-        "max": 6,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 7,
-        "count": 1
-      },
-      "14": {
-        "max": 7,
-        "count": 1
-      },
-      "15": {
-        "max": 8,
-        "count": 1
-      },
-      "16": {
-        "max": 8,
-        "count": 1
-      },
-      "17": {
-        "max": 8,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 1, 2, 3, 3, 4, 5, 6, 6, 7, 7, 8, 8, 8],
+      "count": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Dark Spell Factory": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 2,
-        "count": 1
-      },
-      "9": {
-        "max": 4,
-        "count": 1
-      },
-      "10": {
-        "max": 5,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 6,
-        "count": 1
-      },
-      "14": {
-        "max": 6,
-        "count": 1
-      },
-      "15": {
-        "max": 6,
-        "count": 1
-      },
-      "16": {
-        "max": 6,
-        "count": 1
-      },
-      "17": {
-        "max": 6,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 2, 4, 5, 5, 6, 6, 6, 6, 6, 6],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Hero Hall": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 1,
-        "count": 1
-      },
-      "8": {
-        "max": 2,
-        "count": 1
-      },
-      "9": {
-        "max": 3,
-        "count": 1
-      },
-      "10": {
-        "max": 4,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 7,
-        "count": 1
-      },
-      "14": {
-        "max": 8,
-        "count": 1
-      },
-      "15": {
-        "max": 9,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Blacksmith": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 1,
-        "count": 1
-      },
-      "9": {
-        "max": 2,
-        "count": 1
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 4,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 6,
-        "count": 1
-      },
-      "14": {
-        "max": 7,
-        "count": 1
-      },
-      "15": {
-        "max": 8,
-        "count": 1
-      },
-      "16": {
-        "max": 9,
-        "count": 1
-      },
-      "17": {
-        "max": 9,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 9],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Workshop": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 5,
-        "count": 1
-      },
-      "14": {
-        "max": 6,
-        "count": 1
-      },
-      "15": {
-        "max": 7,
-        "count": 1
-      },
-      "16": {
-        "max": 8,
-        "count": 1
-      },
-      "17": {
-        "max": 8,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 6, 7, 8, 8],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     }
   },
-  "Pet House": {
+  "pet House": {
     "type": "army",
     "gearUp": false,
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 8,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 8, 10, 11],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Barbarian King": {
     "type": "hero",
     "infoByTownhall": {
-      "1": { "max": 0, "count": 0 },
-      "2": { "max": 0, "count": 0 },
-      "3": { "max": 0, "count": 0 },
-      "4": { "max": 0, "count": 0 },
-      "5": { "max": 0, "count": 0 },
-      "6": { "max": 0, "count": 0 },
-      "7": { "max": 10, "count": 1 },
-      "8": { "max": 20, "count": 1 },
-      "9": { "max": 30, "count": 1 },
-      "10": { "max": 40, "count": 1 },
-      "11": { "max": 50, "count": 1 },
-      "12": { "max": 65, "count": 1 },
-      "13": { "max": 75, "count": 1 },
-      "14": { "max": 80, "count": 1 },
-      "15": { "max": 90, "count": 1 },
-      "16": { "max": 95, "count": 1 },
-      "17": { "max": 100, "count": 1 }
+      "max": [0, 0, 0, 0, 0, 0, 10, 20, 30, 40, 50, 65, 75, 80, 90, 95, 100],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Archer Queen": {
     "type": "hero",
     "infoByTownhall": {
-      "1": { "max": 0, "count": 0 },
-      "2": { "max": 0, "count": 0 },
-      "3": { "max": 0, "count": 0 },
-      "4": { "max": 0, "count": 0 },
-      "5": { "max": 0, "count": 0 },
-      "6": { "max": 0, "count": 0 },
-      "7": { "max": 0, "count": 0 },
-      "8": { "max": 10, "count": 1 },
-      "9": { "max": 30, "count": 1 },
-      "10": { "max": 40, "count": 1 },
-      "11": { "max": 50, "count": 1 },
-      "12": { "max": 65, "count": 1 },
-      "13": { "max": 75, "count": 1 },
-      "14": { "max": 80, "count": 1 },
-      "15": { "max": 90, "count": 1 },
-      "16": { "max": 95, "count": 1 },
-      "17": { "max": 100, "count": 1 }
+      "max": [0, 0, 0, 0, 0, 0, 0, 10, 30, 40, 50, 65, 75, 80, 90, 95, 100],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Minion Prince": {
     "type": "hero",
     "infoByTownhall": {
-      "1": { "max": 0, "count": 0 },
-      "2": { "max": 0, "count": 0 },
-      "3": { "max": 0, "count": 0 },
-      "4": { "max": 0, "count": 0 },
-      "5": { "max": 0, "count": 0 },
-      "6": { "max": 0, "count": 0 },
-      "7": { "max": 0, "count": 0 },
-      "8": { "max": 0, "count": 0 },
-      "9": { "max": 10, "count": 1 },
-      "10": { "max": 20, "count": 1 },
-      "11": { "max": 30, "count": 1 },
-      "12": { "max": 40, "count": 1 },
-      "13": { "max": 50, "count": 1 },
-      "14": { "max": 60, "count": 1 },
-      "15": { "max": 70, "count": 1 },
-      "16": { "max": 80, "count": 1 },
-      "17": { "max": 90, "count": 1 }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 10, 20, 30, 40, 50, 60, 70, 80, 90],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Grand Warden": {
     "type": "hero",
     "infoByTownhall": {
-      "1": { "max": 0, "count": 0 },
-      "2": { "max": 0, "count": 0 },
-      "3": { "max": 0, "count": 0 },
-      "4": { "max": 0, "count": 0 },
-      "5": { "max": 0, "count": 0 },
-      "6": { "max": 0, "count": 0 },
-      "7": { "max": 0, "count": 0 },
-      "8": { "max": 0, "count": 0 },
-      "9": { "max": 0, "count": 0 },
-      "10": { "max": 0, "count": 0 },
-      "11": { "max": 20, "count": 1 },
-      "12": { "max": 40, "count": 1 },
-      "13": { "max": 50, "count": 1 },
-      "14": { "max": 55, "count": 1 },
-      "15": { "max": 65, "count": 1 },
-      "16": { "max": 70, "count": 1 },
-      "17": { "max": 75, "count": 1 }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 40, 50, 55, 65, 70, 75],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Royal Champion": {
     "type": "hero",
     "infoByTownhall": {
-      "1": { "max": 0, "count": 0 },
-      "2": { "max": 0, "count": 0 },
-      "3": { "max": 0, "count": 0 },
-      "4": { "max": 0, "count": 0 },
-      "5": { "max": 0, "count": 0 },
-      "6": { "max": 0, "count": 0 },
-      "7": { "max": 0, "count": 0 },
-      "8": { "max": 0, "count": 0 },
-      "9": { "max": 0, "count": 0 },
-      "10": { "max": 0, "count": 0 },
-      "11": { "max": 0, "count": 0 },
-      "12": { "max": 0, "count": 0 },
-      "13": { "max": 25, "count": 1 },
-      "14": { "max": 30, "count": 1 },
-      "15": { "max": 40, "count": 1 },
-      "16": { "max": 45, "count": 1 },
-      "17": { "max": 50, "count": 1 }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 25, 30, 40, 45, 50],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
     }
   },
   "Barbarian": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 1,
-        "count": 1
-      },
-      "2": {
-        "max": 1,
-        "count": 1
-      },
-      "3": {
-        "max": 2,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 3,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 8,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 11,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 12,
-        "count": 1
-      }
+      "max": [1, 1, 2, 2, 3, 3, 4, 5, 6, 7, 8, 9, 9, 10, 11, 12, 12],
+      "count": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Archer": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 1,
-        "count": 1
-      },
-      "3": {
-        "max": 2,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 3,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 8,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 11,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 13,
-        "count": 1
-      }
+      "max": [0, 1, 2, 2, 3, 3, 4, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13],
+      "count": [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Giant": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 1,
-        "count": 1
-      },
-      "3": {
-        "max": 1,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 2,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 8,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 10,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 11,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 13,
-        "count": 1
-      }
+      "max": [0, 1, 1, 2, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 12, 13],
+      "count": [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Goblin": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 1,
-        "count": 1
-      },
-      "3": {
-        "max": 2,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 3,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 8,
-        "count": 1
-      },
-      "13": {
-        "max": 8,
-        "count": 1
-      },
-      "14": {
-        "max": 8,
-        "count": 1
-      },
-      "15": {
-        "max": 9,
-        "count": 1
-      },
-      "16": {
-        "max": 9,
-        "count": 1
-      },
-      "17": {
-        "max": 9,
-        "count": 1
-      }
+      "max": [0, 1, 2, 2, 3, 3, 4, 5, 6, 7, 7, 8, 8, 8, 9, 9, 9],
+      "count": [0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Wall Breaker": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 1,
-        "count": 1
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 2,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 5,
-        "count": 1
-      },
-      "10": {
-        "max": 6,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 8,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 11,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 13,
-        "count": 1
-      }
+      "max": [0, 0, 1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "count": [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Balloon": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 2,
-        "count": 1
-      },
-      "5": {
-        "max": 2,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 6,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 8,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 11,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 10, 11, 11],
+      "count": [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Wizard": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 2,
-        "count": 1
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 8,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 10,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 11,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 13,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 12, 13],
+      "count": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Healer": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 1,
-        "count": 1
-      },
-      "7": {
-        "max": 2,
-        "count": 1
-      },
-      "8": {
-        "max": 3,
-        "count": 1
-      },
-      "9": {
-        "max": 4,
-        "count": 1
-      },
-      "10": {
-        "max": 4,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 6,
-        "count": 1
-      },
-      "14": {
-        "max": 7,
-        "count": 1
-      },
-      "15": {
-        "max": 8,
-        "count": 1
-      },
-      "16": {
-        "max": 9,
-        "count": 1
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 1, 2, 3, 4, 4, 5, 5, 6, 7, 8, 9, 10],
+      "count": [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Dragon": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 2,
-        "count": 1
-      },
-      "8": {
-        "max": 3,
-        "count": 1
-      },
-      "9": {
-        "max": 4,
-        "count": 1
-      },
-      "10": {
-        "max": 5,
-        "count": 1
-      },
-      "11": {
-        "max": 6,
-        "count": 1
-      },
-      "12": {
-        "max": 7,
-        "count": 1
-      },
-      "13": {
-        "max": 8,
-        "count": 1
-      },
-      "14": {
-        "max": 9,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 11,
-        "count": 1
-      },
-      "17": {
-        "max": 12,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "P.E.K.K.A": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 3,
-        "count": 1
-      },
-      "9": {
-        "max": 4,
-        "count": 1
-      },
-      "10": {
-        "max": 6,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 8,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 9,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 11,
-        "count": 1
-      },
-      "17": {
-        "max": 12,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 3, 4, 6, 7, 8, 9, 9, 10, 11, 12],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Baby Dragon": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 2,
-        "count": 1
-      },
-      "10": {
-        "max": 4,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 7,
-        "count": 1
-      },
-      "14": {
-        "max": 8,
-        "count": 1
-      },
-      "15": {
-        "max": 9,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 5, 6, 7, 8, 9, 10, 11],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Miner": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 7,
-        "count": 1
-      },
-      "14": {
-        "max": 8,
-        "count": 1
-      },
-      "15": {
-        "max": 9,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 6, 7, 8, 9, 10, 11],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Electro Dragon": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 2,
-        "count": 1
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 5,
-        "count": 1
-      },
-      "15": {
-        "max": 6,
-        "count": 1
-      },
-      "16": {
-        "max": 7,
-        "count": 1
-      },
-      "17": {
-        "max": 8,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 7, 8],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Yeti": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 2,
-        "count": 1
-      },
-      "13": {
-        "max": 3,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 5,
-        "count": 1
-      },
-      "16": {
-        "max": 6,
-        "count": 1
-      },
-      "17": {
-        "max": 7,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 7],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     }
   },
   "Dragon Rider": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 2,
-        "count": 1
-      },
-      "14": {
-        "max": 3,
-        "count": 1
-      },
-      "15": {
-        "max": 3,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 4, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
     }
   },
   "Electro Titan": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 2,
-        "count": 1
-      },
-      "15": {
-        "max": 3,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Root Rider": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 2,
-        "count": 1
-      },
-      "16": {
-        "max": 3,
-        "count": 1
-      },
-      "17": {
-        "max": 3,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Thrower": {
     "type": "troop",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 2,
-        "count": 1
-      },
-      "17": {
-        "max": 3,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
     }
   },
   "Minion": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 2,
-        "count": 1
-      },
-      "8": {
-        "max": 4,
-        "count": 1
-      },
-      "9": {
-        "max": 5,
-        "count": 1
-      },
-      "10": {
-        "max": 6,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 8,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 11,
-        "count": 1
-      },
-      "16": {
-        "max": 12,
-        "count": 1
-      },
-      "17": {
-        "max": 13,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Hog Rider": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 2,
-        "count": 1
-      },
-      "8": {
-        "max": 4,
-        "count": 1
-      },
-      "9": {
-        "max": 5,
-        "count": 1
-      },
-      "10": {
-        "max": 6,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 10,
-        "count": 1
-      },
-      "14": {
-        "max": 11,
-        "count": 1
-      },
-      "15": {
-        "max": 12,
-        "count": 1
-      },
-      "16": {
-        "max": 13,
-        "count": 1
-      },
-      "17": {
-        "max": 14,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 2, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Valkyrie": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 2,
-        "count": 1
-      },
-      "9": {
-        "max": 4,
-        "count": 1
-      },
-      "10": {
-        "max": 5,
-        "count": 1
-      },
-      "11": {
-        "max": 6,
-        "count": 1
-      },
-      "12": {
-        "max": 7,
-        "count": 1
-      },
-      "13": {
-        "max": 8,
-        "count": 1
-      },
-      "14": {
-        "max": 9,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 11,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 2, 4, 5, 6, 7, 8, 9, 10, 11, 11],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Golem": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 2,
-        "count": 1
-      },
-      "9": {
-        "max": 4,
-        "count": 1
-      },
-      "10": {
-        "max": 5,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 10,
-        "count": 1
-      },
-      "14": {
-        "max": 11,
-        "count": 1
-      },
-      "15": {
-        "max": 12,
-        "count": 1
-      },
-      "16": {
-        "max": 13,
-        "count": 1
-      },
-      "17": {
-        "max": 14,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 2, 4, 5, 7, 9, 10, 11, 12, 13, 14],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Witch": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 2,
-        "count": 1
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 4,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 5,
-        "count": 1
-      },
-      "14": {
-        "max": 5,
-        "count": 1
-      },
-      "15": {
-        "max": 6,
-        "count": 1
-      },
-      "16": {
-        "max": 7,
-        "count": 1
-      },
-      "17": {
-        "max": 7,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 5, 5, 6, 7, 7],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Lava Hound": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 2,
-        "count": 1
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 4,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 6,
-        "count": 1
-      },
-      "14": {
-        "max": 6,
-        "count": 1
-      },
-      "15": {
-        "max": 6,
-        "count": 1
-      },
-      "16": {
-        "max": 6,
-        "count": 1
-      },
-      "17": {
-        "max": 6,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 6, 6, 6, 6],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Bowler": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 2,
-        "count": 1
-      },
-      "11": {
-        "max": 3,
-        "count": 1
-      },
-      "12": {
-        "max": 4,
-        "count": 1
-      },
-      "13": {
-        "max": 5,
-        "count": 1
-      },
-      "14": {
-        "max": 6,
-        "count": 1
-      },
-      "15": {
-        "max": 7,
-        "count": 1
-      },
-      "16": {
-        "max": 8,
-        "count": 1
-      },
-      "17": {
-        "max": 9,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 7, 8, 9],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Ice Golem": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 3,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 5,
-        "count": 1
-      },
-      "14": {
-        "max": 6,
-        "count": 1
-      },
-      "15": {
-        "max": 7,
-        "count": 1
-      },
-      "16": {
-        "max": 8,
-        "count": 1
-      },
-      "17": {
-        "max": 9,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 5, 6, 7, 8, 9],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Headhunter": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 2,
-        "count": 1
-      },
-      "13": {
-        "max": 3,
-        "count": 1
-      },
-      "14": {
-        "max": 3,
-        "count": 1
-      },
-      "15": {
-        "max": 3,
-        "count": 1
-      },
-      "16": {
-        "max": 3,
-        "count": 1
-      },
-      "17": {
-        "max": 3,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 3, 3],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     }
   },
   "Apprentice Warden": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 2,
-        "count": 1
-      },
-      "14": {
-        "max": 3,
-        "count": 1
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 4, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
     }
   },
   "Druid": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 2,
-        "count": 1
-      },
-      "15": {
-        "max": 3,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Furnace": {
     "type": "troop",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 2,
-        "count": 1
-      },
-      "16": {
-        "max": 3,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Wall Wrecker": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 5,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 4, 5, 5, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     }
   },
   "Battle Blimp": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 4, 4, 4, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     }
   },
   "Stone Slammer": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 5,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 4, 5, 5, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     }
   },
   "Siege Barracks": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 5, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
     }
   },
   "Log Launcher": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 5, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
     }
   },
   "Flame Flinger": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 5, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Battle Drill": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Troop Launcher": {
-    "type": "Siege",
-    "uses": "Dark Elixir",
+    "type": "siege",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 3,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
     }
   },
   "Lightning Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 4,
-        "count": 1
-      },
-      "6": {
-        "max": 4,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 8,
-        "count": 1
-      },
-      "12": {
-        "max": 9,
-        "count": 1
-      },
-      "13": {
-        "max": 9,
-        "count": 1
-      },
-      "14": {
-        "max": 9,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 11,
-        "count": 1
-      },
-      "17": {
-        "max": 12,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 4, 4, 4, 5, 6, 7, 8, 9, 9, 9, 10, 11, 12],
+      "count": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Healing Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 3,
-        "count": 1
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 6,
-        "count": 1
-      },
-      "10": {
-        "max": 7,
-        "count": 1
-      },
-      "11": {
-        "max": 7,
-        "count": 1
-      },
-      "12": {
-        "max": 7,
-        "count": 1
-      },
-      "13": {
-        "max": 8,
-        "count": 1
-      },
-      "14": {
-        "max": 8,
-        "count": 1
-      },
-      "15": {
-        "max": 9,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 3, 4, 5, 6, 7, 7, 7, 8, 8, 9, 10, 11],
+      "count": [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Rage Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 4,
-        "count": 1
-      },
-      "8": {
-        "max": 5,
-        "count": 1
-      },
-      "9": {
-        "max": 5,
-        "count": 1
-      },
-      "10": {
-        "max": 5,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 6,
-        "count": 1
-      },
-      "14": {
-        "max": 6,
-        "count": 1
-      },
-      "15": {
-        "max": 6,
-        "count": 1
-      },
-      "16": {
-        "max": 6,
-        "count": 1
-      },
-      "17": {
-        "max": 6,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 4, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6],
+      "count": [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Jump Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 2,
-        "count": 1
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 3,
-        "count": 1
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 5,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 3, 3, 4, 4, 5, 5, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Freeze Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 2,
-        "count": 1
-      },
-      "10": {
-        "max": 5,
-        "count": 1
-      },
-      "11": {
-        "max": 6,
-        "count": 1
-      },
-      "12": {
-        "max": 7,
-        "count": 1
-      },
-      "13": {
-        "max": 7,
-        "count": 1
-      },
-      "14": {
-        "max": 7,
-        "count": 1
-      },
-      "15": {
-        "max": 7,
-        "count": 1
-      },
-      "16": {
-        "max": 7,
-        "count": 1
-      },
-      "17": {
-        "max": 7,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 2, 5, 6, 7, 7, 7, 7, 7, 7],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Clone Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 6,
-        "count": 1
-      },
-      "14": {
-        "max": 7,
-        "count": 1
-      },
-      "15": {
-        "max": 8,
-        "count": 1
-      },
-      "16": {
-        "max": 8,
-        "count": 1
-      },
-      "17": {
-        "max": 8,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 5, 5, 6, 7, 8, 8, 8],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Invisibility Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 2,
-        "count": 1
-      },
-      "12": {
-        "max": 3,
-        "count": 1
-      },
-      "13": {
-        "max": 4,
-        "count": 1
-      },
-      "14": {
-        "max": 4,
-        "count": 1
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 4, 4, 4, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Recall Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 2,
-        "count": 1
-      },
-      "14": {
-        "max": 3,
-        "count": 1
-      },
-      "15": {
-        "max": 4,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 6,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
     }
   },
   "Revive Spell": {
     "type": "spell",
-    "uses": "Elixir",
+    "uses": "elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 2,
-        "count": 1
-      },
-      "16": {
-        "max": 3,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Poison Spell": {
     "type": "spell",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 2,
-        "count": 1
-      },
-      "9": {
-        "max": 3,
-        "count": 1
-      },
-      "10": {
-        "max": 4,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 7,
-        "count": 1
-      },
-      "14": {
-        "max": 8,
-        "count": 1
-      },
-      "15": {
-        "max": 9,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 11,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Earthquake Spell": {
     "type": "spell",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 2,
-        "count": 1
-      },
-      "9": {
-        "max": 3,
-        "count": 1
-      },
-      "10": {
-        "max": 4,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 5,
-        "count": 1
-      },
-      "14": {
-        "max": 5,
-        "count": 1
-      },
-      "15": {
-        "max": 5,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 5,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 2, 3, 4, 5, 5, 5, 5, 5, 5, 5],
+      "count": [0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Haste Spell": {
     "type": "spell",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 2,
-        "count": 1
-      },
-      "10": {
-        "max": 4,
-        "count": 1
-      },
-      "11": {
-        "max": 5,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 5,
-        "count": 1
-      },
-      "14": {
-        "max": 5,
-        "count": 1
-      },
-      "15": {
-        "max": 5,
-        "count": 1
-      },
-      "16": {
-        "max": 5,
-        "count": 1
-      },
-      "17": {
-        "max": 6,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 2, 4, 5, 5, 5, 5, 5, 5, 6],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Skeleton Spell": {
     "type": "spell",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 1,
-        "count": 1
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 4,
-        "count": 1
-      },
-      "12": {
-        "max": 6,
-        "count": 1
-      },
-      "13": {
-        "max": 7,
-        "count": 1
-      },
-      "14": {
-        "max": 7,
-        "count": 1
-      },
-      "15": {
-        "max": 8,
-        "count": 1
-      },
-      "16": {
-        "max": 8,
-        "count": 1
-      },
-      "17": {
-        "max": 8,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 1, 3, 4, 6, 7, 7, 8, 8, 8],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Bat Spell": {
     "type": "spell",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 3,
-        "count": 1
-      },
-      "11": {
-        "max": 4,
-        "count": 1
-      },
-      "12": {
-        "max": 5,
-        "count": 1
-      },
-      "13": {
-        "max": 5,
-        "count": 1
-      },
-      "14": {
-        "max": 5,
-        "count": 1
-      },
-      "15": {
-        "max": 6,
-        "count": 1
-      },
-      "16": {
-        "max": 6,
-        "count": 1
-      },
-      "17": {
-        "max": 7,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 4, 5, 5, 5, 6, 6, 7],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1]
     }
   },
   "Overgrowth Spell": {
     "type": "spell",
-    "uses": "Dark Elixir",
+    "uses": "dark elixir",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 2,
-        "count": 1
-      },
-      "13": {
-        "max": 2,
-        "count": 1
-      },
-      "14": {
-        "max": 3,
-        "count": 1
-      },
-      "15": {
-        "max": 3,
-        "count": 1
-      },
-      "16": {
-        "max": 4,
-        "count": 1
-      },
-      "17": {
-        "max": 4,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 3, 3, 4, 4],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
     }
   },
   "L.A.S.S.I": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 15,
-        "count": 1
-      },
-      "16": {
-        "max": 15,
-        "count": 1
-      },
-      "17": {
-        "max": 15,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 15, 15, 15],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Electro Owl": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 15,
-        "count": 1
-      },
-      "17": {
-        "max": 15,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 15, 15],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Mighty Yak": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 15,
-        "count": 1
-      },
-      "16": {
-        "max": 15,
-        "count": 1
-      },
-      "17": {
-        "max": 15,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 15, 15, 15],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Unicorn": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 10,
-        "count": 1
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 15,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 15],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1]
     }
   },
   "Frosty": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Diggy": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Poison Lizard": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Phoenix": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 10,
-        "count": 1
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
     }
   },
   "Spirit Fox": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
     }
   },
   "Angry Jelly": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 10,
-        "count": 1
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]
     }
   },
   "Sneezy": {
-    "type": "Pet",
+    "type": "pet",
     "infoByTownhall": {
-      "1": {
-        "max": 0,
-        "count": 0
-      },
-      "2": {
-        "max": 0,
-        "count": 0
-      },
-      "3": {
-        "max": 0,
-        "count": 0
-      },
-      "4": {
-        "max": 0,
-        "count": 0
-      },
-      "5": {
-        "max": 0,
-        "count": 0
-      },
-      "6": {
-        "max": 0,
-        "count": 0
-      },
-      "7": {
-        "max": 0,
-        "count": 0
-      },
-      "8": {
-        "max": 0,
-        "count": 0
-      },
-      "9": {
-        "max": 0,
-        "count": 0
-      },
-      "10": {
-        "max": 0,
-        "count": 0
-      },
-      "11": {
-        "max": 0,
-        "count": 0
-      },
-      "12": {
-        "max": 0,
-        "count": 0
-      },
-      "13": {
-        "max": 0,
-        "count": 0
-      },
-      "14": {
-        "max": 0,
-        "count": 0
-      },
-      "15": {
-        "max": 0,
-        "count": 0
-      },
-      "16": {
-        "max": 0,
-        "count": 0
-      },
-      "17": {
-        "max": 10,
-        "count": 1
-      }
+      "max": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
+      "count": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
     }
   }
 }

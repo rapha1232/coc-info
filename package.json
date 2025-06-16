@@ -1,6 +1,6 @@
 {
   "name": "coc-max-levels",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "",
   "types": "dist/index.d.ts",
   "files": [

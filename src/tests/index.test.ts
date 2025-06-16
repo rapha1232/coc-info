@@ -82,8 +82,8 @@ describe("Clash of Clans Data Utilities", () => {
     });
 
     test("Town Hall weapon counts", () => {
-      expect(getCount("townHallWeapon", 16)).toBe(1);
-      expect(getMaxLevel("townHallWeapon", 16)).toBe(1);
+      expect(getCount("Giga Inferno TH13", 13)).toBe(1);
+      expect(getMaxLevel("Giga Inferno TH16", 16)).toBe(1);
     });
   });
 });
