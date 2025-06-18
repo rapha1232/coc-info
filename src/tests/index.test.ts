@@ -1,12 +1,12 @@
 import { getCount, getGear, getMaxLevel, getType } from "../index";
 import {
-    formatBuildTime,
-    getCost,
-    getCraftingModes,
-    getModuleUpgradeCost,
-    getModuleUpgradeTime,
-    getTime,
-    isUpgraded,
+  formatBuildTime,
+  getCost,
+  getCraftingModes,
+  getModuleUpgradeCost,
+  getModuleUpgradeTime,
+  getTime,
+  isUpgraded,
 } from "../utils";
 
 describe("Clash of Clans Data Utilities", () => {
