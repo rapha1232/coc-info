@@ -28,7 +28,7 @@
     "heroes",
     "troops"
   ],
-  "author": "Your Name",
+  "author": "Raphael Semaan",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -46,8 +46,5 @@
     "prettier": "^3.5.3",
     "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
-  },
-  "publishConfig": {
-    "@rapha1232:registry": "https://npm.pkg.github.com"
   }
 }
