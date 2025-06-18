@@ -32,7 +32,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rapha1232/coc-max-levels.git"
+    "url": "git+https://github.com/rapha1232/coc-max-levels.git"
   },
   "bugs": {
     "url": "https://github.com/rapha1232/coc-max-levels/issues"
