@@ -1,20 +1,42 @@
 {
   "name": "coc-max-levels",
-  "version": "1.0.11",
-  "description": "",
+  "version": "1.1.0",
+  "description": "A utility package that provides maximum levels for Clash of Clans buildings, heroes, troops, and spells",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
   "scripts": {
-    "test": "jest",
     "build": "tsc",
-    "prepublishOnly": "pnpm run build && pnpm run test"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "prepublishOnly": "npm run build && npm run test",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "clash-of-clans",
+    "coc",
+    "game",
+    "levels",
+    "max-levels",
+    "buildings",
+    "heroes",
+    "troops"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rapha1232/coc-max-levels.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rapha1232/coc-max-levels/issues"
+  },
+  "homepage": "https://github.com/rapha1232/coc-max-levels#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^24.0.1",
