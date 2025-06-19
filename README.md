@@ -1,5 +1,4 @@
-# 🏰 Clash of Clans Max Levels
-
+# 🏰 Clash of Clans Info
 [![npm version](https://img.shields.io/npm/v/coc-max-levels.svg)](https://www.npmjs.com/package/coc-max-levels)
 [![npm downloads](https://img.shields.io/npm/dm/coc-max-levels.svg)](https://www.npmjs.com/package/coc-max-levels)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rapha1232/coc-max-levels/blob/main/LICENSE)
