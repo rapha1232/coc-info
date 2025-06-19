@@ -1,8 +1,8 @@
-# 🏰 Clash of Clans Max Levels
+# 🏰 Clash of Clans Info
 
-[![npm version](https://img.shields.io/npm/v/coc-max-levels.svg)](https://www.npmjs.com/package/coc-max-levels)
-[![npm downloads](https://img.shields.io/npm/dm/coc-max-levels.svg)](https://www.npmjs.com/package/coc-max-levels)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rapha1232/coc-max-levels/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/coc-info.svg)](https://www.npmjs.com/package/coc-info)
+[![npm downloads](https://img.shields.io/npm/dm/coc-info.svg)](https://www.npmjs.com/package/coc-info)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/rapha1232/coc-info/blob/main/LICENSE)
 
 A comprehensive TypeScript utility package that provides maximum levels, costs, build times, and detailed information for all Clash of Clans entities including buildings, heroes, troops, spells, traps, walls, and siege machines.
 
@@ -18,28 +18,28 @@ A comprehensive TypeScript utility package that provides maximum levels, costs, 
 ## 📦 Installation
 
 ```bash
-npm install coc-max-levels
+npm install coc-info
 # or
-yarn add coc-max-levels
+yarn add coc-info
 # or
-pnpm add coc-max-levels
+pnpm add coc-info
 ```
 
 ## 🚀 Quick Start
 
 ```typescript
-import { 
-  getMaxLevel, 
-  getCount, 
-  getType, 
-  getUses, 
+import {
+  getMaxLevel,
+  getCount,
+  getType,
+  getUses,
   getGear,
   getCost,
   getTime,
   formatBuildTime,
   getTotalCostToMax,
-  getEntitiesByType
-} from "coc-max-levels";
+  getEntitiesByType,
+} from "coc-info";
 
 // Get max level for a building at TH13
 const maxCannonLevel = getMaxLevel("Cannon", 13); // 19
@@ -71,6 +71,7 @@ const defenseBuildings = getEntitiesByType("defense"); // ["Cannon", "Archer Tow
 ### Core Functions
 
 #### `getMaxLevel(entityName: string, townhallLevel: number): number | null`
+
 Returns the maximum level for an entity at the specified Town Hall level.
 
 ```typescript
@@ -80,6 +81,7 @@ getMaxLevel("Dragon", 12); // 7
 ```
 
 #### `getCount(entityName: string, townhallLevel: number): number | null`
+
 Returns the maximum count of an entity at the specified Town Hall level.
 
 ```typescript
@@ -89,6 +91,7 @@ getCount("Barbarian King", 10); // 1
 ```
 
 #### `getType(entityName: string, level?: number): string | null`
+
 Returns the entity type. For Builder's Hut, specify the level to get the correct type.
 
 ```typescript
@@ -99,6 +102,7 @@ getType("Builder's Hut", 2); // "defense"
 ```
 
 #### `getUses(entityName: string, level?: number): string | null`
+
 Returns the resource type used by the entity.
 
 ```typescript
@@ -110,6 +114,7 @@ getUses("Builder's Hut", 2); // "gold"
 ```
 
 #### `getGear(entityName: string): boolean | null`
+
 Returns whether the entity can be geared up.
 
 ```typescript
@@ -119,6 +124,7 @@ getGear("Barbarian"); // null
 ```
 
 #### `getGearUpData(entityName: string): GearUpData | null`
+
 Returns the complete gear up data for an entity, including cost, time, count, and required level.
 
 ```typescript
@@ -127,6 +133,7 @@ const gearUpData = getGearUpData("Cannon");
 ```
 
 #### `getGearUpCost(entityName: string): number | null`
+
 Returns the gear up cost for an entity.
 
 ```typescript
@@ -135,6 +142,7 @@ getGearUpCost("Wizard Tower"); // null
 ```
 
 #### `getGearUpTime(entityName: string): number | null`
+
 Returns the gear up time in seconds for an entity.
 
 ```typescript
@@ -143,6 +151,7 @@ getGearUpTime("Wizard Tower"); // null
 ```
 
 #### `getGearUpCount(entityName: string): number | null`
+
 Returns the number of gear ups available for an entity.
 
 ```typescript
@@ -151,6 +160,7 @@ getGearUpCount("Wizard Tower"); // null
 ```
 
 #### `getGearUpRequiredLevel(entityName: string): number | null`
+
 Returns the required level to gear up an entity.
 
 ```typescript
@@ -159,6 +169,7 @@ getGearUpRequiredLevel("Wizard Tower"); // null
 ```
 
 #### `canGearUpAtLevel(entityName: string, currentLevel: number): boolean`
+
 Checks if an entity can be geared up at a specific level.
 
 ```typescript
@@ -168,6 +179,7 @@ canGearUpAtLevel("Wizard Tower", 10); // false
 ```
 
 #### `getPossibleRemoved(entityName: string, townhallLevel: number): number | null`
+
 Returns the number of buildings that can be removed for merging at higher Town Halls.
 
 ```typescript
@@ -178,6 +190,7 @@ getPossibleRemoved("Cannon", 17); // 7
 ### Cost and Time Functions
 
 #### `getCost(entityName: string, level: number, hutNumber?: number): number | null`
+
 Returns the upgrade cost for a specific level.
 
 ```typescript
@@ -188,6 +201,7 @@ getCost("Builder's Hut", 2); // 4000000 (gold upgrade)
 ```
 
 #### `getTime(entityName: string, level: number): number | null`
+
 Returns the upgrade time in seconds.
 
 ```typescript
@@ -197,6 +211,7 @@ getTime("Builder's Hut", 2); // 259200 (3 days)
 ```
 
 #### `formatBuildTime(seconds: number): string`
+
 Formats build time to human-readable string.
 
 ```typescript
@@ -209,6 +224,7 @@ formatBuildTime(90000); // "1d 1h"
 ### Advanced Calculation Functions
 
 #### `getTotalCostToMax(entityName: string, townhallLevel: number): number | null`
+
 Returns the total cost to max out an entity at a specific Town Hall level.
 
 ```typescript
@@ -217,6 +233,7 @@ getTotalCostToMax("X-Bow", 14); // Total cost to max X-Bow at TH14
 ```
 
 #### `getTotalTimeToMax(entityName: string, townhallLevel: number): number | null`
+
 Returns the total time to max out an entity at a specific Town Hall level.
 
 ```typescript
@@ -227,6 +244,7 @@ getTotalTimeToMax("X-Bow", 14); // Total time to max X-Bow at TH14
 ### Query and Filter Functions
 
 #### `getEntityNames(): string[]`
+
 Returns an array of all available entity names.
 
 ```typescript
@@ -234,6 +252,7 @@ const allEntities = getEntityNames(); // ["Cannon", "Archer Tower", "Barbarian K
 ```
 
 #### `getEntitiesByType(type: string): string[]`
+
 Returns all entities of a specific type.
 
 ```typescript
@@ -242,6 +261,7 @@ getEntitiesByType("hero"); // ["Barbarian King", "Archer Queen", "Grand Warden",
 ```
 
 #### `getEntitiesByResource(resource: string): string[]`
+
 Returns all entities that use a specific resource.
 
 ```typescript
@@ -250,6 +270,7 @@ getEntitiesByResource("dark elixir"); // ["Barbarian King", "Archer Queen", ...]
 ```
 
 #### `getEntitiesAtTownhall(townhallLevel: number): string[]`
+
 Returns all entities available at a specific Town Hall level.
 
 ```typescript
@@ -258,6 +279,7 @@ getEntitiesAtTownhall(13); // ["X-Bow", "Scattershot", "Giga Inferno TH13", ...]
 ```
 
 #### `isAvailableAtTownhall(entityName: string, townhallLevel: number): boolean`
+
 Checks if an entity is available at a specific Town Hall level.
 
 ```typescript
@@ -266,6 +288,7 @@ isAvailableAtTownhall("X-Bow", 8); // false
 ```
 
 #### `getUnlockTownhall(entityName: string): number | null`
+
 Returns the Town Hall level where an entity first becomes available.
 
 ```typescript
@@ -276,6 +299,7 @@ getUnlockTownhall("X-Bow"); // 9
 ### Crafting Station Functions
 
 #### `getCraftingModes(): string[]`
+
 Returns available Crafting Station modes.
 
 ```typescript
@@ -283,6 +307,7 @@ getCraftingModes(); // ["Hook Tower", "Flame Spinner", "Crusher Mortar"]
 ```
 
 #### `getCraftingModeModules(mode: string): string[]`
+
 Returns all available modules for a specific crafting mode.
 
 ```typescript
@@ -290,6 +315,7 @@ getCraftingModeModules("Hook Tower"); // ["Hitpoints", "Attack Cooldown", "Stun 
 ```
 
 #### `getCraftingModeMaxLevel(mode: string, townhallLevel: number): number | null`
+
 Returns the maximum level for a crafting mode at a specific Town Hall level.
 
 ```typescript
@@ -298,6 +324,7 @@ getCraftingModeMaxLevel("Hook Tower", 1); // 0
 ```
 
 #### `getCraftingModeCount(mode: string, townhallLevel: number): number | null`
+
 Returns the maximum count for a crafting mode at a specific Town Hall level.
 
 ```typescript
@@ -306,6 +333,7 @@ getCraftingModeCount("Hook Tower", 1); // 0
 ```
 
 #### `getModuleUpgradeCost(mode: string, moduleName: string, level: number): number | null`
+
 Returns the cost for upgrading a Crafting Station module.
 
 ```typescript
@@ -313,6 +341,7 @@ getModuleUpgradeCost("Hook Tower", "Hitpoints", 2); // 4000000
 ```
 
 #### `getModuleUpgradeTime(mode: string, moduleName: string, level: number): number | null`
+
 Returns the time for upgrading a Crafting Station module.
 
 ```typescript
@@ -322,6 +351,7 @@ getModuleUpgradeTime("Hook Tower", "Hitpoints", 2); // 86400 (1 day)
 ### Utility Functions
 
 #### `isUpgraded(entityName: string, level: number): boolean`
+
 Checks if an entity is in its upgraded state (mainly for Builder's Hut).
 
 ```typescript
@@ -332,13 +362,15 @@ isUpgraded("Builder's Hut", 2); // true
 ### Data Access
 
 #### `data: DataStructure`
+
 The complete typed data object containing all entity information.
 
 #### `entityNames: string[]`
+
 Array of all available entity names (legacy export).
 
 ```typescript
-import { entityNames } from "coc-max-levels";
+import { entityNames } from "coc-info";
 console.log(entityNames.length); // Total number of entities
 ```
 
@@ -347,19 +379,22 @@ console.log(entityNames.length); // Total number of entities
 ### Get All Max Levels for TH13
 
 ```typescript
-import { getMaxLevel, getEntityNames } from "coc-max-levels";
+import { getMaxLevel, getEntityNames } from "coc-info";
 
 const thLevel = 13;
-const allLevels = getEntityNames().reduce((acc, name) => {
-  acc[name] = getMaxLevel(name, thLevel);
-  return acc;
-}, {} as Record<string, number | null>);
+const allLevels = getEntityNames().reduce(
+  (acc, name) => {
+    acc[name] = getMaxLevel(name, thLevel);
+    return acc;
+  },
+  {} as Record<string, number | null>,
+);
 ```
 
 ### Calculate Total Upgrade Cost
 
 ```typescript
-import { getTotalCostToMax } from "coc-max-levels";
+import { getTotalCostToMax } from "coc-info";
 
 // Get total cost to max out X-Bow at TH14
 const totalXBowCost = getTotalCostToMax("X-Bow", 14);
@@ -369,7 +404,7 @@ console.log(`Total cost to max X-Bow at TH14: ${totalXBowCost}`);
 ### Get All Defense Buildings
 
 ```typescript
-import { getEntitiesByType } from "coc-max-levels";
+import { getEntitiesByType } from "coc-info";
 
 const defenseBuildings = getEntitiesByType("defense");
 console.log(defenseBuildings);
@@ -379,7 +414,7 @@ console.log(defenseBuildings);
 ### Analyze Resource Usage
 
 ```typescript
-import { getEntitiesByResource, getTotalCostToMax } from "coc-max-levels";
+import { getEntitiesByResource, getTotalCostToMax } from "coc-info";
 
 // Get all gold-using buildings
 const goldBuildings = getEntitiesByResource("gold");
@@ -396,7 +431,7 @@ console.log(`Total gold needed at TH13: ${totalGoldCost}`);
 ### Builder's Hut Analysis
 
 ```typescript
-import { getCost, getTime, formatBuildTime } from "coc-max-levels";
+import { getCost, getTime, formatBuildTime } from "coc-info";
 
 // Analyze all Builder's Hut costs
 for (let hutNumber = 1; hutNumber <= 5; hutNumber++) {
@@ -415,11 +450,11 @@ for (let level = 2; level <= 7; level++) {
 ### Crafting Station Analysis
 
 ```typescript
-import { 
-  getCraftingModes, 
-  getCraftingModeModules, 
-  getModuleUpgradeCost 
-} from "coc-max-levels";
+import {
+  getCraftingModes,
+  getCraftingModeModules,
+  getModuleUpgradeCost,
+} from "coc-info";
 
 const modes = getCraftingModes();
 console.log("Available crafting modes:", modes);
@@ -429,7 +464,7 @@ const hookModules = getCraftingModeModules("Hook Tower");
 console.log("Hook Tower modules:", hookModules);
 
 // Get upgrade costs for all modules
-hookModules.forEach(module => {
+hookModules.forEach((module) => {
   const cost = getModuleUpgradeCost("Hook Tower", module, 2);
   console.log(`${module} level 2 cost: ${cost}`);
 });
@@ -438,7 +473,7 @@ hookModules.forEach(module => {
 ### Town Hall Progression Analysis
 
 ```typescript
-import { getEntitiesAtTownhall, getUnlockTownhall } from "coc-max-levels";
+import { getEntitiesAtTownhall, getUnlockTownhall } from "coc-info";
 
 // See what's new at each Town Hall level
 for (let th = 1; th <= 17; th++) {
@@ -448,7 +483,7 @@ for (let th = 1; th <= 17; th++) {
 
 // Find when specific buildings unlock
 const buildings = ["X-Bow", "Inferno Tower", "Eagle Artillery", "Scattershot"];
-buildings.forEach(building => {
+buildings.forEach((building) => {
   const unlockTH = getUnlockTownhall(building);
   console.log(`${building} unlocks at TH${unlockTH}`);
 });
@@ -457,21 +492,23 @@ buildings.forEach(building => {
 ### Gear Up Analysis
 
 ```typescript
-import { 
-  getGearUpData, 
-  getGearUpCost, 
-  getGearUpTime, 
+import {
+  getGearUpData,
+  getGearUpCost,
+  getGearUpTime,
   formatBuildTime,
   getEntitiesByType,
-  canGearUpAtLevel
-} from "coc-max-levels";
+  canGearUpAtLevel,
+} from "coc-info";
 
 // Get all defense buildings that can be geared up
 const defenseBuildings = getEntitiesByType("defense");
-const gearUpBuildings = defenseBuildings.filter(building => getGearUpData(building) !== null);
+const gearUpBuildings = defenseBuildings.filter(
+  (building) => getGearUpData(building) !== null,
+);
 
 console.log("Buildings that can be geared up:");
-gearUpBuildings.forEach(building => {
+gearUpBuildings.forEach((building) => {
   const gearUpData = getGearUpData(building);
   if (gearUpData) {
     console.log(`${building}:`);
@@ -491,10 +528,12 @@ const totalGearUpCost = gearUpBuildings.reduce((total, building) => {
 console.log(`Total gear up cost: ${totalGearUpCost}`);
 
 // Check if specific buildings can be geared up at current level
-const currentLevels = { "Cannon": 8, "Archer Tower": 6, "Mortar": 5 };
+const currentLevels = { Cannon: 8, "Archer Tower": 6, Mortar: 5 };
 Object.entries(currentLevels).forEach(([building, level]) => {
   const canGear = canGearUpAtLevel(building, level);
-  console.log(`${building} (Level ${level}): ${canGear ? "Can gear up" : "Cannot gear up"}`);
+  console.log(
+    `${building} (Level ${level}): ${canGear ? "Can gear up" : "Cannot gear up"}`,
+  );
 });
 ```
 
@@ -504,14 +543,22 @@ The package uses a comprehensive data structure with full TypeScript support:
 
 ```typescript
 // Main entity types
-type EntityType = "defense" | "resource" | "walls" | "trap" | "troop" | "spell" | "siege" | "hero";
+type EntityType =
+  | "defense"
+  | "resource"
+  | "walls"
+  | "trap"
+  | "troop"
+  | "spell"
+  | "siege"
+  | "hero";
 type ResourceType = "gold" | "elixir" | "dark elixir" | "gems";
 
 // Gear up data interface
 interface GearUpData {
-  cost: number;        // Cost to gear up
-  time: number;        // Time in seconds to gear up
-  count: number;       // Number of gear ups available
+  cost: number; // Cost to gear up
+  time: number; // Time in seconds to gear up
+  count: number; // Number of gear ups available
   requiredLevel: number; // Required level to gear up
 }
 
@@ -570,8 +617,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ### Development Setup
 
 ```bash
-git clone https://github.com/rapha1232/coc-max-levels.git
-cd coc-max-levels
+git clone https://github.com/rapha1232/coc-info.git
+cd coc-info
 npm install
 npm test
 npm run build

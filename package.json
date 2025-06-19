@@ -1,5 +1,5 @@
 {
-  "name": "coc-max-levels",
+  "name": "@raphasem/coc-info",
   "version": "1.1.0",
   "description": "A utility package that provides maximum levels for Clash of Clans buildings, heroes, troops, and spells",
   "main": "dist/index.js",
@@ -32,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rapha1232/coc-max-levels.git"
+    "url": "git+https://github.com/rapha1232/coc-info.git"
   },
   "bugs": {
-    "url": "https://github.com/rapha1232/coc-max-levels/issues"
+    "url": "https://github.com/rapha1232/coc-info/issues"
   },
-  "homepage": "https://github.com/rapha1232/coc-max-levels#readme",
+  "homepage": "https://github.com/rapha1232/coc-info#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "@types/node": "^24.0.1",
