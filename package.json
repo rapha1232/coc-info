@@ -1,7 +1,7 @@
 {
-  "name": "@raphasem/coc-info",
+  "name": "coc-info",
   "version": "1.1.0",
-  "description": "A utility package that provides maximum levels for Clash of Clans buildings, heroes, troops, and spells",
+  "description": "A comprehensive TypeScript utility package that provides maximum levels, costs, build times, and detailed information for all Clash of Clans entities including buildings, heroes, troops, spells, traps, walls, and siege machines.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
